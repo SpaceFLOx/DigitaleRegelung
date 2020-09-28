@@ -1,0 +1,146 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "2ae0b4f7-01ae-11eb-ba59-d8cb8a814136",
+    "deck_config_uuid": "214b79c9-01ab-11eb-b38b-d8cb8a814136",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "214b79c9-01ab-11eb-b38b-d8cb8a814136",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 20,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [],
+    "name": "DigitaleRegelung",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "4a2a200f-9c13-11ea-a4cd-b4d5bdceb84c",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Vorderseite",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Rückseite",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Einfach-f04d0",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                ""
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Rückseite}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Karte 1",
+                    "ord": 0,
+                    "qfmt": "{{Vorderseite}}\n"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Erste Frage",
+                "Erste Antwort"
+            ],
+            "flags": 0,
+            "guid": "A=7SJRAwZs",
+            "newlyAdded": false,
+            "note_model_uuid": "4a2a200f-9c13-11ea-a4cd-b4d5bdceb84c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "zweite",
+                "zweite"
+            ],
+            "flags": 0,
+            "guid": "GFC8ScITYE",
+            "newlyAdded": false,
+            "note_model_uuid": "4a2a200f-9c13-11ea-a4cd-b4d5bdceb84c",
+            "tags": []
+        }
+    ]
+}
