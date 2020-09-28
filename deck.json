@@ -1,7 +1,7 @@
 {
     "__type__": "Deck",
     "children": [],
-    "crowdanki_uuid": "2ae0b4f7-01ae-11eb-ba59-d8cb8a814136",
+    "crowdanki_uuid": "01571364-01af-11eb-b456-d8cb8a814136",
     "deck_config_uuid": "214b79c9-01ab-11eb-b38b-d8cb8a814136",
     "deck_configurations": [
         {
@@ -95,9 +95,7 @@
                 ]
             ],
             "sortf": 0,
-            "tags": [
-                ""
-            ],
+            "tags": [],
             "tmpls": [
                 {
                     "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Rückseite}}",
@@ -120,24 +118,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Erste Frage",
-                "Erste Antwort"
+                "bla",
+                "bla"
             ],
             "flags": 0,
-            "guid": "A=7SJRAwZs",
-            "newlyAdded": false,
-            "note_model_uuid": "4a2a200f-9c13-11ea-a4cd-b4d5bdceb84c",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "zweite",
-                "zweite"
-            ],
-            "flags": 0,
-            "guid": "GFC8ScITYE",
+            "guid": "MzyoN#Y-Id",
             "newlyAdded": false,
             "note_model_uuid": "4a2a200f-9c13-11ea-a4cd-b4d5bdceb84c",
             "tags": []
